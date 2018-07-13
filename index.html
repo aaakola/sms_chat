@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- This Is A Chat- Interface of An SMS platform
+
+Author:Akola Arthur Alaali
+
+Contact Information
+Email:arthurstaurtleo@hotmail.com
+     :arthurstaurtleo@gmail.com
+
+phone:+256758855695
+created On:21st June 2018 and Modified On:27st June 2018 -->
+
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <meta name ="viewport" content  ="width=device-width,initial-scale =1.0">
+        <title> Graphical Chat-Interface </title>
+        
+        <link rel ="stylesheet" href = "sms_logic_inteface.css">
+        
+        <script src = "sms_logic_inteface.js" ></script>
+        
+    </head>
+    
+    <body>
+        
+        <!--
+        <h1 id = "chat">Welcome To Chat</h1>
+        
+        <div class = "chatbox incoming outline-color" >
+            <div class="left-indent recipent">  Daisy </div>
+            <div class="left-indent"> Hey Arthur</div>
+            <div class = "time time-received">time received </div>
+        </div>
+    
+                    <br>
+        
+        <div class = "chatbox outgoing">
+            <div class="left-indent sender"> Me </div>
+            <div class="left-indent">  Hey Daisy<br>,How Is You?<br> </div>
+            <div class = "time time-sent">time sent </div>
+        </div>
+        
+                    <br>
+        
+        <div class = "chatbox incoming outline-color">                
+            <div class="left-indent recipent">  Daisy </div>            
+            <div class="left-indent"> i am ok </div>
+            <div class = "time time-received">time received </div>        
+        </div>
+        
+                     <br>
+        
+        <div class = "chatbox outgoing">
+            <div class="left-indent sender"> Me </div>
+            <div class="left-indent"> really </div>
+            <div class = "time time-sent">time sent </div>
+        </div>
+          
+                    <br>
+        
+        <div class = "chatbox incoming outline-color">
+            <div class="left-indent recipent">  Daisy</div>
+            <div class="left-indent"> Yah </div>
+            <div class = "time time-received">time received </div>
+        </div>
+    
+        
+        <div id = "Mom"> </div>
+        <br>
+        
+        <input placeholder= "type name here"/>
+        -->
+        
+        <div id = "user_list">
+            <div id ="users"></div>
+
+            <div>
+                <input id = "close_list" type ="button" value = "cancel" onclick ="dismiss_userlist()"/>
+                <input  id ="ok_button" type ="button" value = "OK" onclick ="send_message()"/>
+            </div>
+        </div>
+        
+        <div id = "info">
+            <div id ="info_text">info-text</div>
+            <div id ="close_info" onclick = "dismiss_info()"> OK</div>
+        </div>
+        
+        <div id = "message_div" class = "hasborder div_layout"></div>
+
+        <div id = "sender_div" class = "hasborder div_layout">
+            <input id = "entry" placeholder = "type Message.."/>
+            <input type ="button" value ="send" id ="send_button" onclick ="display_users()"/> 
+        </div>
+        
+        
+        <div id = "login_div">
+            <input id = "usernameEntry" placeholder = "Type Username">
+            <div id = "login-btn" onclick = "login()">Login</div>
+            <!--<textarea rows =5 cols=15 placeholder="type desciption 
+            here..."></textarea> --> 
+        </div> 
+        
+    </body>
+
+</html>
+

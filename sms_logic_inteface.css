@@ -1,0 +1,314 @@
+/*
+ Author:Akola Arthur Alaali
+
+Contact Information
+Email:arthurstaurtleo@hotmail.com
+     :arthurstaurtleo@gmail.com
+
+phone:+256758855695
+created On:21st June 2018 and Modified On:29th June 2018 -->
+
+ 
+ */
+
+body{
+    background : rgb(50,10,30);
+    
+    background-image : url("/home/arthur2/projects/html/sms_chat_interface/eda-44439 (1).jpg");
+    
+    color : white;
+    
+    font-family : monospace;
+    
+    font-weight : normal;
+
+    font-size : 1.3em;
+
+    
+}
+
+
+
+.chatbox{
+    border : solid 1px;
+    
+    border-radius : 0px 5px;
+    
+    margin-bottom : 10px;
+    
+    word-wrap : break-word;
+    
+   
+}
+
+.incoming{
+    border-left-width : 5px;
+
+    margin-left : 0px;
+    
+    margin-right : 40%;
+}
+
+.outgoing{
+    text-align : left;
+    border-left-width : 5px;
+    margin-right : 5px;    
+    margin-left : 40%;
+}
+
+.time{
+    text-align : right;
+    
+    font-size : 0.9em;
+    
+    margin : 0px 5px 5px 0px
+
+}
+
+.time-received{
+        color : rgb(255,255,255)
+
+}
+
+.time-sent{
+    color : #ADFF2F
+
+}
+
+.left-indent{
+    margin: 0px 0px 10px 5px;
+}
+
+.outline-color{
+    color : #ADFF2F
+
+}
+
+.sender{
+    color : #ADFF2F
+}
+
+.recipent{
+    color : rgb(255,255,255)
+}
+
+#chat{
+ 
+}
+
+
+#message_div{
+    height :90%;
+    position :absolute;
+    overflow : auto;
+
+}
+
+
+#sender_div{
+    height : 30px;
+    position :absolute;
+    bottom : 0px;
+}
+
+.hasborder{
+    /*border : 1px solid black;*/
+
+}
+.div_layout{
+    width :98%;
+    left : 1%;
+
+}
+#entry{
+    height : 18px;
+    width : 76%;
+    position : fixed;
+    left :0%;
+    word-wrap : break-word;
+}
+
+#send_button{
+    position : absolute;
+    left : 80%;
+    width :20%;
+
+}
+ 
+#info{  
+    position :absolute;
+    z-index :5;
+    height :40%;
+    width : 90%;
+    top : 30%;
+    left :5%;
+    background-color :grey;
+    border-radius :10px;
+    display :none;
+
+}
+#info_text{
+    position : absolute;
+    height : 80%;
+    width :90%;
+    left :5%;
+
+    text-align :center;
+    line-height :100px;
+    color :rgb(210,210,210);
+
+}
+#close_info{
+    position :absolute;
+    top :84%;
+    left :5%;
+    width :90%;
+    text-align :right;
+    font-size : 1.2em;
+    color :white;
+}
+#close_info:hover{
+    color : blue;
+}
+
+#user_list{
+    position : absolute;
+    border :2px solid black;
+    height :70%;
+    width : 70%;
+    left : 15%;
+    background-color : rgb(50,10,30);
+    border-radius : 10px 10px 10px 10px;
+    z-index : 4;
+    display :none;
+}
+
+#users{
+    position : absolute;
+    border :2px solid white;
+    height :80%;
+    overflow :auto;
+    width : 95%;
+    left : 2.5%;
+    text-align : left;
+    color :white;
+    font-family : monospace;
+    font-size : 1.4em;
+    border-radius : 10px 10px 10px 10px;
+}
+
+#close_list{
+    position : absolute;
+    width : 27%;
+    bottom : 20px;
+    
+}
+#ok_button{
+    position : absolute;
+    right :10px;
+    bottom : 20px;
+    right : 0px;
+}
+
+.user{
+    position: relative;
+    width:90%;
+    left: 5%;
+
+    height: 30px;
+/*    
+    border: 1px solid black;
+*/
+}
+
+.custom_checkbox{
+    display: inline-block;
+    position: absolute;
+    height:100%;
+    width:10%;
+    
+    text-align:center;
+    line-height: 22px;
+/*
+    border: 1px solid black;
+*/
+}
+
+.username{
+    display: inline-block;
+    position: absolute;
+    height:100%;
+    width:90%;
+    left: 10%;
+    
+    line-height: 25px;
+/*
+    border: 1px solid black;
+*/
+}
+
+.username:hover{
+    opacity:0.4;
+    cursor:pointer;
+}
+
+#login_div{
+    position : absolute;
+    height : 100%;
+    width : 95%;
+    font-family : monospace;
+    background : rgb(50,10,30);
+    color : white;
+    z-index : 2;
+    border : 2px solid yellow;
+}
+
+#usernameEntry{
+    position :absolute;
+    width : 80%;
+    left : 10%;
+    z-index : 2;
+    border : 2px solid yellow;
+    top :45%;
+    text-indent :5px;
+    border : 0px;
+    border-bottom : 1px solid grey;
+    border-radius :5px;
+    background : rgb(50,10,30);
+    color :rgb(200,200,200);
+}
+
+#login-btn{
+    position :absolute;
+    top :55%;
+    width :20%;
+    left : 70%;
+    font-size : 1.3em;
+    text-align : center;
+    border-radius :5px;
+    border-left :1px solid rgb(200,200,200);
+    border-right :1px solid rgb(200,200,200);
+    color :rgb(100,100,100);
+}
+
+#login-btn:hover{
+    opacity : 0.4;
+    cursor :pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
